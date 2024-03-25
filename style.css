@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    /* width: 120%; */
+}
+
+
+.container{
+    position: fixed;
+    top:-8px;
+    padding-left:25%;
+    padding:  10px;
+    list-style-type: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    border: 15px red;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 40px;
+    gap:120px;
+    z-index:1;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu ul li{
+    list-style-type: none;
+    margin:0 8px 0 8px ;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0  );
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #ffffff;
+}
+
+.mainMain{
+    position: relative;
+    top:50px;
+    background: url("fhoto/tesla.jpg");
+    height: 800px;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: -53px;
+}
+
+.mainMain ul{
+    margin-top: 100px;
+    height: 100px;
+    list-style-type: none;
+    background-color: transparent;   
+}
+
+.mainMain ul li h1,p{
+    text-transform: uppercase;
+    text-decoration:none ;
+    background-color: transparent;
+    color: #ffffff;
+}
+.footer{
+    background-color: rgb(198, 198, 209);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    justify-content:center;
+}
+.ul-footer{
+    display: flex;
+    list-style-type: none;
+    align-items: end;
+}
+
+.ul-footer li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0  );
+    justify-content: space-between;
+    padding: 0 0 0 400px;
+    font-size: 12px;
+}
+.mainFooter .firstFooter{
+    position: relative;
+    top:50%;
+    transform:translate(-50%, 0, 0, 0);
+    font-size:12px;
+}
+.footer{
+    background-image: white ;
+    padding: 40px 0 10px 0;
+    bottom: 0;
+    width: 100%;
+}
